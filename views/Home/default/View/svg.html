@@ -45,7 +45,7 @@
                             {{if gt $index 1}}
                             <img src="/static/Common/img/loading.gif" data-original="{{$.PreviewDomain}}/dochub-public1/{{$.Doc.Md5}}/{{CalcInt $index "+" 1}}.{{Default $.Doc.PreviewExt "svg"}}" class="wenku-lazy wenku-viewer-img wenku-page{{CalcInt $index "+" 1}}" data-page="{{CalcInt $index "+" 1}}" alt="{{$.Doc.Title}} 第 {{CalcInt $index "+" 1}} 页">
                             {{else}}
-                            <img src="{{$.PreviewDomain}}/{{$.Doc.Md5}}/{{CalcInt $index "+" 1}}.{{Default $.Doc.PreviewExt "svg"}}" class="wenku-lazy wenku-viewer-img wenku-page{{CalcInt $index "+" 1}}" data-page="{{CalcInt $index "+" 1}}" alt="{{$.Doc.Title}} 第 {{CalcInt $index "+" 1}} 页">
+                            <img src="{{$.PreviewDomain}}/dochub-public1/{{$.Doc.Md5}}/{{CalcInt $index "+" 1}}.{{Default $.Doc.PreviewExt "svg"}}" class="wenku-lazy wenku-viewer-img wenku-page{{CalcInt $index "+" 1}}" data-page="{{CalcInt $index "+" 1}}" alt="{{$.Doc.Title}} 第 {{CalcInt $index "+" 1}} 页">
                             {{end}}
                         {{end}}
 
