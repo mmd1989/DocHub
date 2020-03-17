@@ -9,7 +9,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 
-	CloudStore2 "github.com/TruthHun/CloudStore"
+	CloudStore2 "github.com/mmd1989/CloudStore"
 	"github.com/TruthHun/DocHub/helper"
 )
 
